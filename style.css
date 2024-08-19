@@ -133,6 +133,10 @@ caption {
   gap: 1rem;
 }
 
+.aside li {
+  padding-inline-end: 2rem;
+}
+
 .aside li::before {
   color: var(--clr-rose-800);
 }
@@ -153,7 +157,7 @@ caption {
 .ul li,
 .ol li {
   position: relative;
-  padding-inline: 2rem;
+  padding-inline-start: 2rem;
 }
 
 .ul li::before,
